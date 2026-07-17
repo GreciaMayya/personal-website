@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nature & Travel | Grecia Mayya</title>
+    <meta
+      name="description"
+      content="Nature, travel, GIS projects, maps, images, and writing by Grecia Mayya."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="nature-page">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Grecia Mayya home">
+        <span class="brand-mark" aria-hidden="true">GM</span>
+        <span>Grecia Mayya</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a class="active" href="nature-travel.html">Nature &amp; Travel</a>
+        <a href="energy-grid.html">Energy &amp; Grid</a>
+        <a href="urban-mobility.html">Urban Mobility</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero nature-hero" aria-labelledby="nature-title">
+        <p class="eyebrow">Nature, travel, and GIS</p>
+        <h1 id="nature-title">Maps for noticing the world more closely</h1>
+        <p class="page-lede">
+          Spatial projects, travel notes and outdoor observations 
+        </p>
+      </section>
+
+      <section class="section compact-section" aria-labelledby="nature-gallery">
+        <div class="section-heading">
+          <p class="eyebrow">Projects and visuals</p>
+          <h2 id="nature-gallery">Birds of Sikkim</h2>
+        </div>
+        <div class="simple-list">
+          <article class="simple-item video-item">
+            <video
+              class="field-video"
+              src="assets/himalayan-bulbul-sikkim.mp4"
+              poster="assets/himalayan-bulbul-sikkim-poster.png"
+              controls
+              preload="metadata"
+            ></video>
+            <div>
+              <h3>Himalayan bulbul biodiversity</h3>
+              <p>Used public data from eBird to map changes in the number of observations reported to eBird as a proxy for capturing seasonal geographic changes of the Himalayan bulbul in Sikkim. </p>
+              <p>To create the map and video visualization, I used QGIS and Canva. </p>
+                <p>I presented this work at the Society for Conservation GIS conference in July 2026 in Estes Park, Colorado.</p>
+            </div>
+          </article>
+          <article class="simple-item image-item">
+            <img
+              class="field-image"
+              src="assets/Sikkim-black-throated-tit.png"
+              alt="Black-throated tit observed in Sikkim"
+              loading="lazy"
+            >
+            <div>
+              <h3>Sikkim black-throated tit</h3>
+              <p>Used QGIS to create a clean map of Sikkim, a northern state of India where Black-throated tits can be found year-round.
+              </p>
+            </div>
+          </article>
+          <article class="simple-item image-item">
+            <img
+              class="field-image"
+              src="assets/mountain-hawk-eagle.png"
+              alt="Mountain hawk-eagle observed in Sikkim"
+              loading="lazy"
+            >
+            <div>
+              <h3>Mountain hawk-eagle</h3>
+              <p>Used QGIS to process and visualize elevation data across the state of Sikkim. This northern Indian state is home to the Mountain-hawk eagle, a bird of prey with a signature crest of elongated feathers.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section compact-section" aria-labelledby="cherry-map-title">
+        <div class="section-heading map-heading">
+          <div>
+            <p class="eyebrow">Featured GIS project</p>
+            <h2 id="cherry-map-title">Cambridge cherry tree bike map</h2>
+          </div>
+          <a
+            class="text-link"
+            href="https://greciamayya.github.io/cambridge-cherry-tree-bike-map/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open full map
+          </a>
+        </div>
+        <div class="map-frame compact-map-frame">
+          <iframe
+            title="Cambridge cherry tree bike map"
+            src="https://greciamayya.github.io/cambridge-cherry-tree-bike-map/"
+            loading="lazy"
+          ></iframe>
+        </div>
+        
+        <div class="project-description">
+          <p>
+            I mapped cherry blossom trees across City of Cambridge to make them easier to explore by bike. You can zoom in and explore different cherry blossom clusters to create your own bike
+            route this spring or maybe plan for next year! 🌸
+          </p>
+          <p>
+            A big thank you to
+            <a href="https://spatialthoughts.com/" target="_blank" rel="noreferrer">
+              Spatial Thoughts
+            </a>
+            for leading an incredible course on Python and spatial analysis, where I gained
+            confidence working with tools like geopandas and APIs.
+          </p>
+          <p><strong>Data sources:</strong></p>
+          <ul>
+            <li>
+              🌳
+              <a href="https://data.cambridgema.gov/Public-Works/Street-Trees/82zb-7qc9/about_data" target="_blank" rel="noreferrer">
+                City of Cambridge Street Trees
+              </a>
+            </li>
+            <li>
+              🚲
+              <a href="https://data.cambridgema.gov/Public-Works/Bike-Facilities/9aey-9g9p/about_data" target="_blank" rel="noreferrer">
+                City of Cambridge bike facilities
+              </a>
+            </li>
+          </ul>
+          <p><strong>Tools:</strong></p>
+          <ul>
+            <li>🐍 pandas - data cleaning, filtering and analysis</li>
+            <li>🗺️ folium - creating interactive web map</li>
+            <li>↪️ requests - querying data from a public API</li>
+            <li>🟠 Jupyter lab - development environment</li>
+            <li>🐈‍⬛ Github Pages - deployment</li>
+          </ul>
+          <p><strong>Full workflow:</strong></p>
+          <ul>
+            <li>
+              <a href="https://github.com/GreciaMayya/cambridge-cherry-tree-bike-map/blob/main/Cambridge_Cherry_Bike_Map.ipynb" target="_blank" rel="noreferrer">
+                Jupyter labs notebook
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section compact-section" aria-labelledby="nature-writing">
+        <div class="section-heading">
+          <p class="eyebrow">Writing shelf</p>
+          <h2 id="nature-writing">Bike Trip Essays from Substack - Exploring the West Coast by Bike and Amtrak</h2>
+        </div>
+        <div class="simple-list">
+          <article class="simple-item story-item">
+            <img
+              class="story-thumbnail"
+              src="https://substackcdn.com/image/fetch/$s_!8OKD!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F315de808-6daf-4ec6-9fb7-de7716a614a6_4032x3024.jpeg"
+              alt="Thumbnail image for the Seattle bike and train essay"
+              loading="lazy"
+            >
+            <div class="story-copy">
+              <span class="card-kicker">April 2022</span>
+              <h3>Part 3: Exploring Seattle, Washington </h3>
+              <p>Stayed in the Ballard neighborhood of Seattle and explored the city by bike including Golden Gardens Park, the Seattle Japanese Garden, and the Hiram M. Chittenden Locks. </p>
+              <a class="text-link" href="https://greciawhite.substack.com/p/part-3-west-coast-bike-and-train" target="_blank" rel="noreferrer">
+                Read on Substack
+              </a>
+          </article>
+          <article class="simple-item story-item">
+            <img
+              class="story-thumbnail"
+              src="https://substackcdn.com/image/fetch/$s_!r3sm!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6effcc6f-b994-4231-9327-04ce6334603e_3024x4032.jpeg"
+              alt="Thumbnail image for the Portland bike and train essay"
+              loading="lazy"
+            >
+            <div class="story-copy">
+              <span class="card-kicker">April 2022</span>
+              <h3>Part 2: Exploring Portland, Oregon</h3>
+              <p>Explored Portland's neighborhoods and parks via bike including the International Rose Test Garden in Washington Park and Crystal Springs Rhododendron Garden.</p>
+              <a class="text-link" href="https://greciawhite.substack.com/p/part-2-west-coast-solo-bike-train" target="_blank" rel="noreferrer">
+                Read on Substack
+              </a>
+            </div>
+          </article>
+          <article class="simple-item story-item">
+            <img
+              class="story-thumbnail"
+              src="https://substackcdn.com/image/fetch/$s_!p1DR!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3135a248-9d22-4a93-812c-8ada04f6934f_4032x3024.jpeg"
+              alt="Thumbnail image for the Santa Monica bike and train essay"
+              loading="lazy"
+            >
+            <div class="story-copy">
+              <span class="card-kicker">April 2022</span>
+              <h3>Part 1: San Diego to Santa Monica to Portland via Amtrak</h3>
+              <p>Purchased a folding bike near Santa Monica, and rode it around the LA area before continuing on to Portland, taking the train through California's Central Valley.</p>
+              <a class="text-link" href="https://greciawhite.substack.com/p/part-1-west-coast-solo-bike-train" target="_blank" rel="noreferrer">
+                Read on Substack
+              </a>
+            </div>
+          </article>
+          <article class="simple-item story-item">
+            <img
+              class="story-thumbnail"
+              src="https://substackcdn.com/image/fetch/$s_!hgxa!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe854903-30ed-48a6-a470-e725cea7299a_943x652.png"
+              alt="Thumbnail image for the Hudson Valley biking essay"
+              loading="lazy"
+            >
+            <div class="story-copy">
+              <span class="card-kicker">April 2025</span>
+              <h3>Solo Biking Down the Hudson Valley</h3>
+              <p>A biking essay from the Empire State Trail through the Hudson Valley.</p>
+              <a class="text-link" href="https://greciawhite.substack.com/p/solo-biking-down-the-hudson-valley" target="_blank" rel="noreferrer">
+                Read on Substack
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Grecia Mayya. Built as a simple static portfolio.</p>
+    </footer>
+  </body>
+</html>
