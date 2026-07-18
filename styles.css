@@ -681,6 +681,18 @@ h3 {
   border-color: rgba(47, 82, 104, 0.18);
 }
 
+.energy-paper-preview {
+  float: left;
+  width: min(34%, 260px);
+  margin: 0 22px 12px 0;
+}
+
+.energy-article::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .resume-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 320px;
@@ -905,6 +917,13 @@ h3 {
   .photo-collage-tall {
     grid-column: auto;
     grid-row: auto;
+  }
+
+  .energy-paper-preview {
+    float: none;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto 16px;
   }
 
   .feature-grid,
