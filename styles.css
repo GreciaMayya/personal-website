@@ -777,6 +777,15 @@ h3 {
   color: var(--muted);
 }
 
+.mobility-page .simple-item h3,
+.mobility-page .simple-item strong {
+  color: var(--forest);
+}
+
+.mobility-page .simple-item p {
+  color: var(--ink);
+}
+
 .simple-item .text-link {
   display: inline-flex;
   margin-top: 10px;
